@@ -5,12 +5,17 @@
 }
 
 body {
-    background-color: #F3F3E8;
+        background-color: #F7F8FB;
     font-family: Helvetica, Arial, sans-serif;
 }
-
+.ppp
+{
+  width: 100%;
+  margin: 3px 4px 16px 42px;
+  font-family: cursive;
+}
 .hero {
-    background-image: url('https://anandipaliwal.files.wordpress.com/2015/06/food-table-relisted.jpg');
+    background-image: url('http://thesocietycafe.in/wp-content/uploads/2014/05/food-header-1.jpg');
     background-size: cover;
     min-height: 300px;
     border-radius: 4px;
@@ -26,10 +31,9 @@ body {
     color: white;
     background-color: #cb202d;
 }
-
 #app .navbar a {
-    color: white;
-    opacity:0.6;
+    color: #C5BAB5;
+    font-weight: bold;
 }
 
 .hidden {
@@ -37,7 +41,7 @@ body {
 }
 
 #app .login {
-    background:url(https://images.pexels.com/photos/8275/light-hotel-bricks-wall.jpg?w=1200&h=627&fit=crop&auto=compress&cs=tinysrgb);
+    background:url(https://www.wien.info/media/images/41993-das-loft-sofitel-19to1.jpeg);
     background-size: cover;
     height: 100vh;
     min-height: 500px;
@@ -63,14 +67,16 @@ body {
 }
 
 .restaurant {
-    background-color: white;
-    position: relative;
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
-    padding: 2rem;
-    border-radius: 4px;
+  background-color: white;
+position: relative;
+width: 600px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 2rem;
+padding: 2rem;
+border-radius: 4px;
+border: 2px solid black;
+box-shadow: 2px 2px 12px 5px;
 }
 
 .rest-wrapper {
@@ -173,7 +179,10 @@ margin:auto;
 
 }
 
-.container-fluid{
-
-  background-color: #d58700;
+.container-fluid {
+    background-color: #29130C;
+}
+.main
+{
+  background-color: #EFF6EE !important;
 }
